@@ -1,7 +1,6 @@
 PREFIX = /usr/local
 BIN = bin
 
-.PHONY build:
 build:
 	@ldc2 dstrap.d && rm dstrap.o
 
